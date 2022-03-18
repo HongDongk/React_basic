@@ -38,7 +38,7 @@ function App() {
       </ul>
 
       <h2>The Coins! {`${coins.length}`}</h2>
-      <select>{coins.map((coin) => (<option>{coin.name} ({coin.symbol}): ${coin.quotes.USD.price} USD</option>))}</select> 
+      <select>{coins.map(coin => (<option>{coin.name} ({coin.symbol}): ${coin.quotes.USD.price} USD</option>))}</select> 
     </div>
   )
 }
