@@ -34,7 +34,7 @@ function App() {
         <button>Add To Do</button>
       </form>
       <ul>
-        {toDos.map((item, index) => (<li key={index}>{item}</li>))}
+        {toDos.map((item) => (<li key={item}>{item}</li>))}
       </ul>
 
       <h2>The Coins! {`${coins.length}`}</h2>
